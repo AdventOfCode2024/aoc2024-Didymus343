@@ -10,6 +10,8 @@
   <ItemGroup>
     <None Remove="Day01\2024_Day01.txt" />
     <None Remove="Day01\2024_Day01_Example.txt" />
+    <None Remove="Day02\2024_Day02.txt" />
+    <None Remove="Day02\2024_Day02_Example.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +19,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Day01\2024_Day01_Example.txt" />
+    <EmbeddedResource Include="Day02\2024_Day02.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Day02\2024_Day02_Example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
